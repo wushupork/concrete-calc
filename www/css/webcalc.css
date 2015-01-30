@@ -4,8 +4,8 @@ body {
     -webkit-user-select: none; 
     color: #999999;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 0.8em;
-    line-height: 1.5em;
+    font-size: 2.5em;
+    line-height: 5em;
     background-color: #3b3b3b;
     text-transform:uppercase;
 }
