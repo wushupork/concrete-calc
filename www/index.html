@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" type="text/css" href="css/webcalc.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src='js/webcalc.js'></script>		
+        <title>Concrete Calculator</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Concrete Calculator</h1>
+<!-- 
+			<div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+--> 
+			<div id="formwrapper">
+				<table>
+					<form name="calculator" method="post">
+						<tr>
+							<td>
+								<span id="formlabel">
+									Select a shape: 
+								</span>
+							</td>
+							<td colspan="2">
+								<select name="shape" id="selector">
+									<option value="Circle" selected>Circle</option>
+									<option value="Rectangle">Rectangle</option>
+									<option value="Square">Square</option>
+									<option value="Trapezoid">Trapezoid</option>
+									<option value="Triangle">Triangle</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span id="formlabel">
+									Bags or truck?
+								</span>
+							</td>
+							<td colspan="2">
+								<select name="unit" id="selector">
+									<option value="Bag">Bag</option>
+									<option value="Truck" selected>Truck</option>
+								</select>
+							</td>
+						</tr>
+						<tr name="side1row">
+							<td>
+								<span name="side1text" id="formlabel">
+									Radius:
+								</span>
+							</td><td>
+								<input name="side1" id="selector">
+							</td><td>
+								<select name="side1unit" id="selector2">
+									<option value="feet">Feet</option>
+									<option value="inches">Inches</option>
+								</select>
+							</td>
+						</tr>
+						<tr name="side2row">
+							<td>
+								<span name="side2text" id="formlabel">
+									Radius:
+								</span>
+							</td><td>
+								<input name="side2" id="selector">
+							</td><td>
+								<select name="side2unit" id="selector2">
+									<option value="feet">Feet</option>
+									<option value="inches">Inches</option>
+								</select>
+							</td>
+						</tr>					
+						<tr name="side3row">
+							<td>
+								<span name="side3text" id="formlabel">
+									Radius:
+								</span>
+							</td><td>
+								<input name="side3" id="selector">
+							</td><td>
+								<select name="side3unit" id="selector2">
+									<option value="feet">Feet</option>
+									<option value="inches">Inches</option>
+								</select>
+							</td>
+						</tr>
+						<tr name="thickrow">
+							<td>
+								<span name="thicktext" id="formlabel">
+										Thickness:
+								</span>
+							</td><td>
+								<input name="thickness" id="selector">
+							</td><td>
+								<select name="thickunit" id="selector2">
+									<option value="feet">Feet</option>
+									<option value="inches" selected>Inches</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align:right" align="right"><input type="button" name="calculate" value="Calculate!">
+							<td>&nbsp;</td>
+						</tr>
+					</form>
+				</table>
+				<hr />
+				<table>
+					<tr>
+						<td><span id="formlabel">Area (sq. ft.)</span></td>
+						<td colspan="2" align="right"><span id="valuelabel" name="areavalue"></span></td>
+					</tr>
+					<tr>
+						<td><span id="formlabel">Volume (cu. ft.)</span></td>
+						<td colspan="2" align="right"><span id="valuelabel" name="volvalue"></span></td>
+					</tr>
+					<tr>
+						<td><span name="concreqtext" id="formlabel">Concrete Required (cu. yd.)</span></td>
+						<td colspan="2" align="right"><span id="valuelabel" name="concreqvalue"></span></td>
+					</tr>
+				</table>   
+			</div>
+		</div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

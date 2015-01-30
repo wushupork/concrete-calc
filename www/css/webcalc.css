@@ -1,0 +1,38 @@
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none; 
+    color: #999999;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    background-color: #3b3b3b;
+    text-transform:uppercase;
+}
+
+#valuelabel {
+	font-family: 'Oswald', sans-serif;
+	color: #FFF;
+}
+
+#formwrapper {
+    /*text-align:center;*/
+    width: 350px;
+	display:block;
+}
+
+#selector {
+    width: 100px;
+	margin-left: 40px;
+}
+
+#selector2 {
+    width: 65px;
+	margin-left: 10px;
+}
+
+#formlabel {
+    width: 80px;
+	margin-right: 50px;
+	text-align:right;
+}

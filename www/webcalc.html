@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="webcalc.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src='webcalc.js'></script>
+		<title></title>
+	</head>
+	<body>
+		<div id="formwrapper">
+			<table>
+				<form name="calculator" method="post">
+					<tr>
+						<td>
+							<span id="formlabel">
+								Select a shape: 
+							</span>
+						</td>
+						<td colspan="2">
+							<select name="shape" id="selector">
+								<option value="Circle" selected>Circle</option>
+								<option value="Rectangle">Rectangle</option>
+								<option value="Square">Square</option>
+								<option value="Trapezoid">Trapezoid</option>
+								<option value="Triangle">Triangle</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span id="formlabel">
+								Bags or truck?
+							</span>
+						</td>
+						<td colspan="2">
+							<select name="unit" id="selector">
+								<option value="Bag">Bag</option>
+								<option value="Truck" selected>Truck</option>
+							</select>
+						</td>
+					</tr>
+					<tr name="side1row">
+						<td>
+							<span name="side1text" id="formlabel">
+								Radius:
+							</span>
+						</td><td>
+							<input name="side1" id="selector">
+						</td><td>
+							<select name="side1unit" id="selector2">
+								<option value="feet">Feet</option>
+								<option value="inches">Inches</option>
+							</select>
+						</td>
+					</tr>
+					<tr name="side2row">
+						<td>
+							<span name="side2text" id="formlabel">
+								Radius:
+							</span>
+						</td><td>
+							<input name="side2" id="selector">
+						</td><td>
+							<select name="side2unit" id="selector2">
+								<option value="feet">Feet</option>
+								<option value="inches">Inches</option>
+							</select>
+						</td>
+					</tr>					
+					<tr name="side3row">
+						<td>
+							<span name="side3text" id="formlabel">
+								Radius:
+							</span>
+						</td><td>
+							<input name="side3" id="selector">
+						</td><td>
+							<select name="side3unit" id="selector2">
+								<option value="feet">Feet</option>
+								<option value="inches">Inches</option>
+							</select>
+						</td>
+					</tr>
+					<tr name="thickrow">
+						<td>
+							<span name="thicktext" id="formlabel">
+									Thickness:
+							</span>
+						</td><td>
+							<input name="thickness" id="selector">
+						</td><td>
+							<select name="thickunit" id="selector2">
+								<option value="feet">Feet</option>
+								<option value="inches" selected>Inches</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:right" align="right"><input type="button" name="calculate" value="Calculate!">
+						<td>&nbsp;</td>
+					</tr>
+				</form>
+			</table>
+			<hr />
+			<table>
+				<tr>
+					<td><span id="formlabel">Area (sq. ft.)</span></td>
+					<td colspan="2" align="right"><span id="valuelabel" name="areavalue"></span></td>
+				</tr>
+				<tr>
+					<td><span id="formlabel">Volume (cu. ft.)</span></td>
+					<td colspan="2" align="right"><span id="valuelabel" name="volvalue"></span></td>
+				</tr>
+				<tr>
+					<td><span name="concreqtext" id="formlabel">Concrete Required (cu. yd.)</span></td>
+					<td colspan="2" align="right"><span id="valuelabel" name="concreqvalue"></span></td>
+				</tr>
+			</table>   
+		</div>
+	</body>
+</html>
