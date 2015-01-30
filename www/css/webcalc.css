@@ -22,7 +22,7 @@ body {
 }
 
 #selector {
-    width: 33%;
+    width: 200px;
 	margin-left: 40px;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 0.8em;
@@ -30,7 +30,7 @@ body {
 }
 
 #selector2 {
-    width: 33%;
+    width: 200px;
 	margin-left: 10px;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 0.8em;
@@ -38,7 +38,7 @@ body {
 }
 
 #formlabel {
-    width: 33%;
+    width: 200px;
 	margin-right: 50px;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 0.8em;
