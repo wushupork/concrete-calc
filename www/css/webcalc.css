@@ -5,7 +5,7 @@ body {
     color: #999999;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 2.5em;
-    line-height: 5em;
+    line-height: 1.5em;
     background-color: #3b3b3b;
     text-transform:uppercase;
 }
@@ -17,22 +17,22 @@ body {
 
 #formwrapper {
     /*text-align:center;*/
-    width: 350px;
+    width: 500px;
 	display:block;
 }
 
 #selector {
-    width: 100px;
+    width: 120px;
 	margin-left: 40px;
 }
 
 #selector2 {
-    width: 65px;
+    width: 120px;
 	margin-left: 10px;
 }
 
 #formlabel {
-    width: 80px;
+    width: 120px;
 	margin-right: 50px;
 	text-align:right;
 }
