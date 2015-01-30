@@ -17,22 +17,31 @@ body {
 
 #formwrapper {
     /*text-align:center;*/
-    width: 500px;
+    width: 100%;
 	display:block;
 }
 
 #selector {
-    width: 120px;
+    width: 20%;
 	margin-left: 40px;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    line-height: 1.5em;
 }
 
 #selector2 {
-    width: 120px;
+    width: 20%;
 	margin-left: 10px;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    line-height: 1.5em;
 }
 
 #formlabel {
-    width: 120px;
+    width: 20%;
 	margin-right: 50px;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    line-height: 1.5em;
 	text-align:right;
 }
