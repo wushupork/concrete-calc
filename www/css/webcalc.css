@@ -25,7 +25,7 @@ body {
     width: 20%;
 	margin-left: 40px;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 2.5em;
+    font-size: 0.8em;
     line-height: 1.5em;
 }
 
@@ -33,7 +33,7 @@ body {
     width: 20%;
 	margin-left: 10px;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 2.5em;
+    font-size: 0.8em;
     line-height: 1.5em;
 }
 
@@ -41,7 +41,7 @@ body {
     width: 20%;
 	margin-right: 50px;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 2.5em;
+    font-size: 0.8em;
     line-height: 1.5em;
 	text-align:right;
 }
